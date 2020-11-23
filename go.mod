@@ -1,4 +1,4 @@
-module github.com/rebuy-de/aws-nuke
+module github.com/jreut/aws-nuke/v2
 
 go 1.13
 
@@ -10,6 +10,7 @@ require (
 	github.com/mattn/go-isatty v0.0.9 // indirect
 	github.com/mb0/glob v0.0.0-20160210091149-1eb79d2de6c4
 	github.com/pkg/errors v0.8.1
+	github.com/rebuy-de/aws-nuke v0.0.0-00010101000000-000000000000
 	github.com/sirupsen/logrus v1.4.2
 	github.com/spf13/cobra v0.0.5
 	github.com/stretchr/testify v1.4.0
@@ -17,3 +18,5 @@ require (
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
 	gopkg.in/yaml.v2 v2.2.2
 )
+
+replace github.com/rebuy-de/aws-nuke => ./
